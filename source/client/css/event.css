@@ -1,0 +1,50 @@
+.event-hero {
+  padding: 56px 0 30px;
+}
+.event-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 38px;
+  align-items: start;
+}
+.event-layout h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.1;
+  margin: 10px 0;
+}
+.facts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--line);
+  margin: 24px 0;
+}
+.fact {
+  background: #fff;
+  padding: 15px;
+}
+.fact small {
+  display: block;
+  color: #587064;
+}
+.detail-copy {
+  max-width: 700px;
+}
+.event-layout > * {
+  min-width: 0;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 28px;
+}
+@media (max-width: 760px) {
+  .event-layout {
+    grid-template-columns: 1fr;
+  }
+  .facts {
+    grid-template-columns: 1fr;
+  }
+}
+.summary-media { display: block; width: 100%; max-width: 720px; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--radius); margin: 0 0 20px; }
