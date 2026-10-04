@@ -1,0 +1,21 @@
+/* Green Tomorrow: editorial forest treatment */
+.site-header {
+  background: #f0f7f1;
+  border-bottom: 2px solid #b8d8c0;
+}
+.brand {
+  letter-spacing: 0.16em;
+}
+.hero {
+  background: linear-gradient(120deg, #dbeee0, #f7faf8 62%);
+}
+.hero h1 {
+  font-family: Georgia, serif;
+  font-weight: 500;
+}
+.event-card {
+  border-radius: 2px;
+}
+.placeholder-media {
+  background: #c9e8d4;
+}
